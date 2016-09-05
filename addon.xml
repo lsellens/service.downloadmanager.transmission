@@ -5,7 +5,7 @@
        provider-name="lsellens">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="os.libreelec.tv" version="8.0.0"/>
+    <import addon="os.libreelec.tv" version="8.0"/>
   </requires>
   <extension point="xbmc.service" library="default.py">
   </extension>
