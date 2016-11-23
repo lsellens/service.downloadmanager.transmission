@@ -1,5 +1,5 @@
-8.0.0
-- rebuild for LibreELEC-8.0
+7.90.007
+- libressl-2.3.8
 
 7.0.2
 - fix to work with libreelec for x86_64 and all RPis
