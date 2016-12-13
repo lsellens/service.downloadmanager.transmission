@@ -33,17 +33,17 @@ if [ ! -f "$ADDON_DIR/arch."$arch ]; then
     touch $ADDON_DIR/arch.$arch
 fi
 
-if [ ! -L "$ADDON_DIR/lib/libssl.so.38" ]; then
+if [ ! -L "$ADDON_DIR/lib/libssl.so.39" ]; then
     rm $ADDON_DIR/lib/libssl.so.39
     ln -s /usr/lib/libssl.so $ADDON_DIR/lib/libssl.so.39
 fi
 
-if [ ! -L "$ADDON_DIR/lib/libcrypto.so.37" ]; then
+if [ ! -L "$ADDON_DIR/lib/libcrypto.so.38" ]; then
     rm $ADDON_DIR/lib/libcrypto.so.38
     ln -s /usr/lib/libcrypto.so $ADDON_DIR/lib/libcrypto.so.38
 fi
 
-if [ ! -L "$ADDON_DIR/lib/libtls.so.10" ]; then
+if [ ! -L "$ADDON_DIR/lib/libtls.so.11" ]; then
     rm $ADDON_DIR/lib/libtls.so.11
     ln -s /usr/lib/libtls.so $ADDON_DIR/lib/libtls.so.11
 fi
