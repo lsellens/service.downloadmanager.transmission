@@ -30,22 +30,10 @@ arch=$(uname -m)
 if [ ! -f "$ADDON_DIR/arch."$arch ]; then
     cp $ADDON_DIR/multiarch/transmission-daemon.$arch $ADDON_DIR/bin/transmission-daemon
     cp $ADDON_DIR/multiarch/transmission-remote.$arch $ADDON_DIR/bin/transmission-remote
+    cp $ADDON_DIR/multiarch/libssl.so.39 $ADDON_DIR/lib/libssl.so.39
+    cp $ADDON_DIR/multiarch/libcrypto.so.38 $ADDON_DIR/lib/libcrypto.so.38
+    cp $ADDON_DIR/multiarch/libtls.so.11 $ADDON_DIR/lib/libtls.so.11
     touch $ADDON_DIR/arch.$arch
-fi
-
-if [ ! -L "$ADDON_DIR/lib/libssl.so.39" ]; then
-    rm $ADDON_DIR/lib/libssl.so.39
-    ln -s /usr/lib/libssl.so $ADDON_DIR/lib/libssl.so.39
-fi
-
-if [ ! -L "$ADDON_DIR/lib/libcrypto.so.38" ]; then
-    rm $ADDON_DIR/lib/libcrypto.so.38
-    ln -s /usr/lib/libcrypto.so $ADDON_DIR/lib/libcrypto.so.38
-fi
-
-if [ ! -L "$ADDON_DIR/lib/libtls.so.11" ]; then
-    rm $ADDON_DIR/lib/libtls.so.11
-    ln -s /usr/lib/libtls.so $ADDON_DIR/lib/libtls.so.11
 fi
 
 chmod a+x $ADDON_DIR/bin/*
