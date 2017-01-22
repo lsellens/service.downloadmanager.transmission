@@ -1,3 +1,6 @@
+7.95.1
+- recompiled armv7l binaries to work on imx6 and rpi2/3
+
 7.90.009
 - libressl-2.4.4
 
