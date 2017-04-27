@@ -12,5 +12,9 @@
     <summary>transmission: a fast, easy and free BitTorrent client</summary>
     <description>transmission is a fast, easy and free BitTorrent client</description>
     <platform>linux</platform>
+    <news>7.95.2 - recompiled armv7l binaries(last were linked to openssl instead of libressl)</news>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
   </extension>
 </addon>
