@@ -28,6 +28,7 @@ export TRANSMISSION_WEB_HOME="$ADDON_DIR/web"
 
 arch=$(uname -m)
 if [ ! -f "$ADDON_DIR/arch."$arch ]; then
+    rm $ADDON_DIR/arch.*
     cp $ADDON_DIR/multiarch/transmission-daemon.$arch $ADDON_DIR/bin/transmission-daemon
     cp $ADDON_DIR/multiarch/transmission-remote.$arch $ADDON_DIR/bin/transmission-remote
     cp $ADDON_DIR/multiarch/libssl.so.39.$arch $ADDON_DIR/lib/libssl.so.39
@@ -41,8 +42,6 @@ chmod a+x $ADDON_DIR/bin/*
 if [ "$TRANSMISSION_ENABLE_CUSTOM_CONFIG" = "false" ]; then
 
     mkdir -p "$TRANSMISSION_DL_DIR"
-
-    > $ADDON_LOG_FILE
 
     if [ "$TRANSMISSION_INC_DIR" = "" ]; then
       TRANSMISSION_INC_DIR="$TRANSMISSION_DL_DIR/incoming"
@@ -63,7 +62,6 @@ if [ "$TRANSMISSION_ENABLE_CUSTOM_CONFIG" = "false" ]; then
     TRANSMISSION_ARG="$TRANSMISSION_ARG --watch-dir \"$TRANSMISSION_WATCH_DIR\""
     TRANSMISSION_ARG="$TRANSMISSION_ARG -e $ADDON_LOG_FILE"
     TRANSMISSION_ARG="$TRANSMISSION_ARG -g /storage/.cache/transmission"
-
     TRANSMISSION_ARG="$TRANSMISSION_ARG -a '$TRANSMISSION_IP'"
 
     if [ "$TRANSMISSION_AUTH" = "true" ]; then
@@ -81,4 +79,4 @@ else
     TRANSMISSION_ARG="$TRANSMISSION_ARG -g $TRANSMISSION_PATH_CUSTOM_CONFIG"
 fi
 
-eval EVENT_NOEPOLL=1 exec transmission-daemon -f $TRANSMISSION_ARG
+eval EVENT_NOEPOLL=1 exec transmission-daemon -f -x /var/run/transmission-daemon.pid $TRANSMISSION_ARG

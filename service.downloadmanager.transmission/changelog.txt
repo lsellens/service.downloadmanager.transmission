@@ -1,3 +1,7 @@
+7.95.3
+- configured service to reload after settings change
+- if enabling a custom config; user settings are overwritten so made them not visable
+
 7.95.2
 - recompiled armv7l binaries(last were linked to openssl instead of libressl)
 
