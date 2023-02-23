@@ -24,7 +24,7 @@
 
 oe_setup_addon service.downloadmanager.transmission
 
-export TRANSMISSION_WEB_HOME="$ADDON_DIR/web"
+export TRANSMISSION_WEB_HOME="$ADDON_DIR/public_html"
 
 arch=$(uname -m)
 if [ ! -f "$ADDON_DIR/arch."$arch ]; then
