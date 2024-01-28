@@ -1,3 +1,15 @@
+8.0.5
+- Transmission 4.0.5
+
+8.0.4
+- Transmission 4.0.4
+
+8.0.3
+- Transmission 4.0.3
+
+8.0.2
+- Transmission 4.0.2
+
 8.0.1
 - Transmission 4.0.1
 
