@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <strings>
-
-	<!-- Transmission -->
 	<string id="1000">Transmission</string>
 	<string id="1010">Benutzer Einstellungen</string>
 	<string id="1021">Authentifizierung verwenden</string>
@@ -9,5 +7,4 @@
 	<string id="1023">Passwort</string>
 	<string id="2010">Netzwerk Einstellungen</string>
 	<string id="2021">Erlaubte IP Adressen (durch Komma getrennt)</string>
-
 </strings>

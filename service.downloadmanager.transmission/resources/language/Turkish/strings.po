@@ -1,0 +1,82 @@
+# XBMC Media Center language file
+# Addon Name: transmission
+# Addon id: service.downloadmanager.transmission
+# Addon version: 8.0.5
+# Addon Provider: lsellens
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2024-05-16 17:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgctxt "Addon Summary"
+msgid "transmission: a fast, easy and free BitTorrent client"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "transmission is a fast, easy and free BitTorrent client"
+msgstr ""
+
+msgctxt "#1000"
+msgid "Transmission"
+msgstr "Transmission"
+
+msgctxt "#1010"
+msgid "User Settings"
+msgstr "Kullanıcı Ayarları"
+
+msgctxt "#1021"
+msgid "Use authentification"
+msgstr "Kimlik doğrulama kullan"
+
+msgctxt "#1022"
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+msgctxt "#1023"
+msgid "Password"
+msgstr "Parola"
+
+msgctxt "#2010"
+msgid "Network Settings"
+msgstr "Ağ Ayarları"
+
+msgctxt "#2021"
+msgid "Allowed IP addresses (comma-delimited)"
+msgstr "İzin verilen IP adresleri (virgülle ayrılmış)"
+
+msgctxt "#3110"
+msgid "Other"
+msgstr "Diğer"
+
+msgctxt "#3121"
+msgid "Download Directory"
+msgstr "İndirme Dizini"
+
+msgctxt "#3122"
+msgid "Watch Directory"
+msgstr "Dizin'i İzle"
+
+msgctxt "#3123"
+msgid "Incoming (incomplete) Directory"
+msgstr "Gelen (tamamlanmamış) Dizini"
+
+msgctxt "#4110"
+msgid "Custom Configuration"
+msgstr "Özel Yapılandırma"
+
+msgctxt "#4121"
+msgid "Enable custom configuration"
+msgstr "Özel yapılandırmayı etkinleştir"
+
+msgctxt "#4122"
+msgid "Custom configuration folder"
+msgstr "Özel yapılandırma klasörü"

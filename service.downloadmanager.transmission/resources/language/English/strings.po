@@ -1,0 +1,98 @@
+# XBMC Media Center language file
+# Addon Name: transmission
+# Addon id: service.downloadmanager.transmission
+# Addon version: 8.0.5
+# Addon Provider: lsellens
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2024-05-16 17:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "Addon Summary"
+msgid "transmission: a fast, easy and free BitTorrent client"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "transmission is a fast, easy and free BitTorrent client"
+msgstr ""
+
+msgctxt "#1000"
+msgid "Transmission"
+msgstr ""
+
+#empty strings from id 1001 to 1009
+
+msgctxt "#1010"
+msgid "User Settings"
+msgstr ""
+
+#empty strings from id 1011 to 1020
+
+msgctxt "#1021"
+msgid "Use authentification"
+msgstr ""
+
+msgctxt "#1022"
+msgid "Username"
+msgstr ""
+
+msgctxt "#1023"
+msgid "Password"
+msgstr ""
+
+#empty strings from id 1024 to 2009
+
+msgctxt "#2010"
+msgid "Network Settings"
+msgstr ""
+
+#empty strings from id 2011 to 2020
+
+msgctxt "#2021"
+msgid "Allowed IP addresses (comma-delimited)"
+msgstr ""
+
+#empty strings from id 2022 to 3109
+
+msgctxt "#3110"
+msgid "Other"
+msgstr ""
+
+#empty strings from id 3111 to 3120
+
+msgctxt "#3121"
+msgid "Download Directory"
+msgstr ""
+
+msgctxt "#3122"
+msgid "Watch Directory"
+msgstr ""
+
+msgctxt "#3123"
+msgid "Incoming (incomplete) Directory"
+msgstr ""
+
+#empty strings from id 3124 to 4109
+
+msgctxt "#4110"
+msgid "Custom Configuration"
+msgstr ""
+
+#empty strings from id 4111 to 4120
+
+msgctxt "#4121"
+msgid "Enable custom configuration"
+msgstr ""
+
+msgctxt "#4122"
+msgid "Custom configuration folder"
+msgstr ""
